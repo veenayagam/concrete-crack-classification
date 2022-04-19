@@ -1,4 +1,4 @@
-# Concrete Crack Classification using Convolutional Neural Network
+# Concrete Crack Classification using Convolutional Neural Network using MobileNet v2
 
 ## 1. Summary
 The project's goal is to develop a convolutional neural network model that can accurately detect cracks in concrete. 
