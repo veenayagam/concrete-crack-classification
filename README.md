@@ -14,8 +14,7 @@ The issue is modelled as a binary classification problem (no cracks/negative and
 This project's technique is based on documentation found on the official TensorFlow website. 
 You can refer to it [here](https://www.tensorflow.org/tutorials/images/transfer_learning).
 ### 3.1. Data Pipeline
-The image data is loaded, along with the labels that follows the labels. First, the data is divided into a 70:30 train-validation set. 
-The validation data is then divided into two halves, each having an 80:20 ratio, to obtain some test data. The split ratio for train-validation-test is 70:24:6 overall. 
+The image data is loaded, along with the labels that follows the labels. The data is split into train-validation-test sets, with a ratio of 70:24:6. 
 No data augmentation is applied as the data size and variation are already sufficient.
 
 ### 3.2. Model Pipeline
